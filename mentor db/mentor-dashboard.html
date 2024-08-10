@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mentor Dashboard</title>
+</head>
+<body>
+    <div class="dashboard-layout">
+        <!-- Messaging Center -->
+        <div class="messaging-center">
+            <h3>Messages</h3>
+            <div class="message">
+                <p><strong>Student A:</strong> Looking forward to our session...</p>
+            </div>
+            <div class="message">
+                <p><strong>Student B:</strong> Can we reschedule?</p>
+            </div>
+            <div class="message">
+                <p><strong>Student C:</strong> Thanks for the advice!</p>
+            </div>
+            <button class="btn">View All Messages</button>
+        </div>
+
+        <!-- Mentor Dashboard -->
+        <div class="dashboard-container">
+            <div class="search-container">
+                <input type="text" placeholder="Search for mentees by skills, goals, location..." class="search-bar">
+                <button class="btn search-btn" onclick="window.location.href='search-mentees.html'">Search</button>
+            </div>
+
+            <h2>Mentor Dashboard</h2>
+
+            <div class="dashboard-section">
+                <h3>Current Mentee(s)</h3>
+                <div class="card">
+                    <img src="../image.webp" alt="Mentee Profile Picture" class="profile-img">
+                    <p>Student A</p>
+                    <button class="btn">View Profile</button>
+                </div>
+            </div>
+
+            <div class="dashboard-section">
+                <h3>Pending Invitations</h3>
+                <div class="card">
+                    <img src="../image.webp" alt="Mentee Profile Picture" class="profile-img">
+                    <p>Student B</p>
+                    <button class="btn">Accept</button>
+                    <button class="btn secondary">Decline</button>
+                </div>
+            </div>
+
+            <div class="dashboard-section">
+                <h3>Upcoming Sessions</h3>
+                <div class="card">
+                    <p>Session with Student A on Tuesday, 11th August at 4:00 PM</p>
+                    <button class="btn">View Details</button>
+                </div>
+            </div>
+
+            <div class="dashboard-section">
+                <h3>Goal Tracking</h3>
+                <div class="card">
+                    <p>Progress with Student A: 50% Complete</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 50%;"></div>
+                    </div>
+                    <button class="btn">Update Goals</button>
+                </div>
+            </div>
+
+            <!-- New Buttons -->
+            <div class="dashboard-section">
+                <h3>Interaction & Support</h3>
+                <button class="btn" onclick="window.location.href='../support/interaction-support.html'">Go to Interaction & Support</button>
+            </div>
+
+            <div class="dashboard-section">
+                <h3>Support & Reporting</h3>
+                <button class="btn" onclick="window.location.href='../support/support-reporting.html'">Go to Support & Reporting</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

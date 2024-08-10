@@ -1,0 +1,155 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.dashboard-layout {
+    display: flex;
+    width: 800px;
+}
+
+.messaging-center {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    margin-right: 20px;
+}
+
+.messaging-center h3 {
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.message {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.search-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.search-btn {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.search-btn:hover {
+    background-color: #0056b3;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.dashboard-section {
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.card,
+.mentee-card {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.mentee-info h3 {
+    margin: 0;
+    color: #333;
+}
+
+.mentee-info p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.progress {
+    background-color: #007BFF;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.btn.secondary {
+    background-color: #ccc;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.btn.secondary:hover {
+    background-color: #999;
+}
